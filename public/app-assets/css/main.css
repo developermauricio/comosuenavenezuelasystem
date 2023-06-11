@@ -1,0 +1,153 @@
+.logo-header {
+    position: absolute;
+    left: calc(50% - 2rem) !important;
+    padding: 0;
+    z-index: 1000;
+}
+
+.vs-checkbox--icon.material-icons {
+    font-size: 17px !important;
+}
+
+.btn-primary.isDisabled {
+    color: red;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.vdp-datepicker__calendar {
+    z-index: 1419 !important;
+}
+
+.toast-message {
+    color: #ffffff !important;
+}
+
+.toast-title {
+    color: #ffffff !important;
+}
+
+.toast-icon {
+    display: none !important;
+}
+
+.input-tel__input.is-invalid {
+    border: 1px solid #f00 !important;
+}
+
+#text-line-participation.is-invalid {
+    color: red !important;
+}
+
+.dropzone-area.is-invalid {
+    border: 1px solid #f00 !important;
+}
+
+.is-invalid .multiselect__tags {
+    border: 1px solid #f00 !important;
+}
+#title-headHousehold.is-invalid{
+    color: red;
+}
+#title-victimConflict.is-invalid{
+    color: red;
+}
+#title-disability.is-invalid{
+    color: red;
+}
+#title-vinculad-ecopetrol.is-invalid{
+    color: red;
+}
+#title-primero-empleo_ecopetrol.is-invalid{
+    color: red;
+}
+#title-bachiller-colombia-ecopetrol.is-invalid{
+    color: red;
+}
+
+.background-auth {
+    object-fit: contain;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-image: url(/images/como-suena-venezuela.jpg)
+}
+
+@media (max-width: 472px) and (min-width: 320px) {
+    .background-auth {
+        height: 45%;
+        width: 50%;
+        background-size: cover;
+        display: block !important;
+    }
+}
+
+@media (max-width: 472px) and (min-width: 320px) {
+    .footer-logos{
+        display: none !important;
+    }
+    .logo-header {
+        position: absolute;
+        left: calc(50% - 100px) !important;
+        padding: 1rem;
+        z-index: 1000;
+        /*margin-bottom: 1rem;*/
+    }
+    .logo-header-aspirant{
+        position: absolute;
+        left: calc(50% - -25px) !important;
+        padding: 1rem;
+        z-index: 1000;
+    }
+    .fixed-player {
+        position: fixed;
+        bottom: 15rem;
+        width: 100%;
+        left: 0;
+        z-index: 200 !important;
+    }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+    .footer-logos{
+        display: none !important;
+        left: calc(50% - 20px) !important;
+    }
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+    background: #5bbc13 !important;
+}
+
+.plyr--full-ui input[type=range] {
+    color: #5bbc13 !important;;
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+    background: #5bbc13 !important;
+}
+.multiselect__option--highlight{
+    background: #5bbc13 !important;
+}
+.vdp-datepicker__calendar .cell.selected{
+    background: #5bbc13 !important;
+    color: #ffffff !important;
+}
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover{
+    border: 1px solid #5bbc13 !important;
+}
+
+#dpz-archives-register-minor{
+    text-align: center !important;
+}
+
+.vue-dropzone>.dz-preview .dz-details{
+    background-color: #5bbc13 !important;
+}
+.multiselect__tag{
+    background: #5bbc13 !important;
+}
+.swal2-container{
+    z-index: 99999999999 !important;
+}
