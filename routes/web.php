@@ -24,7 +24,7 @@ Route::get('/update-state-project/{id}', function ($id){
     return response()->json('ok');
 });
 
-Route::get('/skd0skd0s', function () {
+Route::get('/cuenta', function () {
     return view('aspirant.account');
 })->middleware('midd_aspirant_account');
 
@@ -97,6 +97,6 @@ Route::group(['middleware' => 'auth', 'namespace' => 'User'], function () {
 /*=============================================
 RUTAS PARA LOS MENSAJES
 =============================================*/
-Route::get('/cuenta', function (){
-   return view('messages.close-announcement');
-});
+//Route::get('/cuenta', function (){
+//   return view('messages.close-announcement');
+//});
